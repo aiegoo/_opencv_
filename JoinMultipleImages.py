@@ -9,8 +9,8 @@ def main():
 
     imgHorr = np.hstack((grayToBGR,img,grayToBGR))
     imgHor = np.hstack((img,grayToBGR,img))
-    # cv.imshow('H',imgHor)
-    # imgVer = np.vstack((grayToBGR,img))
+    cv.imshow('H',imgHor)
+    imgVer = np.vstack((grayToBGR,img))
     imgVer = np.vstack((imgHor,imgHorr))
     cv.imshow('V',imgVer)
     cv.waitKey(0)
@@ -54,5 +54,5 @@ def playsix():
     cv.destroyAllWindows()
 
 if __name__ == "__main__":
-    # main()
+    main()
     playsix()
