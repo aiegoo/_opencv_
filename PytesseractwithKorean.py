@@ -1,4 +1,4 @@
-import cv2 as cv
+from cv2 import cv2 as cv
 import os
 import pytesseract 
 from pytesseract import Output
