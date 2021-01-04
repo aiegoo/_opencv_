@@ -1,3 +1,9 @@
 [submodule "_opencv_"]
 	path = _opencv_
 	url = git@github.com:aiegoo/_opencv_
+[submodule "mavsdk_project"]
+	path = mavsdk_project
+	url = https://github.com/lapass50025/mavsdk_project.git
+[submodule "road_detection"]
+	path = road_detection
+	url = git@github.com:aiegoo/road_detection
